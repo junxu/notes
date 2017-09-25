@@ -6,9 +6,7 @@ Kubernetes -----> Heketi  ------> Glusterfs集群
 Heketi是glusterfs集群的一个代理，提供restapi方式管理volume的功能
 
 注意：
-
 a. 事先准备好glusterfs集群
-
 b. glusterfs 集群上要准备一些裸盘给Heketi使用
 
 ## 2. Heketi部署
@@ -50,11 +48,11 @@ b. glusterfs 集群上要准备一些裸盘给Heketi使用
       "kubernetes: Communicate with GlusterFS containers over",
       "            Kubernetes exec api."
     ],
-    "executor": "ssh",
+    "executor": "ssh", //重要选择ssh 
 
     "_sshexec_comment": "SSH username and private key file information",
     "sshexec": {
-      "keyfile": "/etc/heketi/ssh-key",
+      "keyfile": "/etc/heketi/ssh-key", //重要 
       "user": "root",
       "port": "22",
       "fstab": "/etc/fstab"
@@ -72,7 +70,7 @@ b. glusterfs 集群上要准备一些裸盘给Heketi使用
     },
 
     "_db_comment": "Database file name",
-    "db": "/var/lib/heketi/heketi.db",
+    "db": "/var/lib/heketi/heketi.db",  //关注
 
     "_loglevel_comment": [
       "Set log level. Choices are:",
@@ -161,7 +159,7 @@ data:
 ### 2.2 准备sshkey
 sshkey是能够glusterfs集群节点sshkey公钥
 
-从sshkey公钥文件创建secret
+从glusterfs集群的sshkey公钥文件创建secret
 
 ```kubectl create secret generic  heketi --from-file=ssh-key=/root/xj/ssh-key -n kube-system```
 
@@ -213,7 +211,7 @@ spec:
         heketi: pod
     spec:
       containers:
-      - image: registry.paas/library/heketi:5
+      - image: registry.paas/library/heketi:5 //使用社区的heketi v5版本
         imagePullPolicy: IfNotPresent
         name: heketi
         ports:
@@ -269,26 +267,26 @@ spec:
                     "node": {
                         "hostnames": {
                             "manage": [
-                                "192.168.1.19"
+                                "192.168.1.19"  //glusterfs集群节点的IP地址
                             ],
                             "storage": [
-                                "192.168.1.19"
+                                "192.168.1.19"  //glusterfs集群节点的IP地址
                             ]
                         },
                         "zone": 1
                     },
                     "devices": [
-                        "/dev/vdb"
+                        "/dev/vdb"		//该glusterfs节点上可供Heketi使用的裸盘
                     ]
                 },
                 {
                     "node": {
                         "hostnames": {
                             "manage": [
-                                "192.168.1.20"
+                                "192.168.1.20"  //glusterfs集群节点的IP地址
                             ],
                             "storage": [
-                                "192.168.1.20"
+                                "192.168.1.20" //glusterfs集群节点的IP地址
                             ]
                         },
                         "zone": 2
