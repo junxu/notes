@@ -25,6 +25,6 @@
 22. [2017] [Towards Principled Methods for Training Generative Adversarial Networks](https://arxiv.org/abs/1701.04862)
 23. [2017] [Generalization and Equilibrium in Generative Adversarial Nets](https://arxiv.org/abs/1703.00573)
 24. [2017] [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500)
-25.                                                                                                                            
+25. [2017] [Wasserstein Divergence for GANs](https://arxiv.org/abs/1712.01026)                                                                                                                           
 ~                                                                               
 
