@@ -12,4 +12,19 @@
 9. [2017] [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500)
 10. [2018] [Spectral Normalization for Generative Adversarial Networks](https://arxiv.org/abs/1802.05957)
 11. [2018] [Improving the Improved Training of Wasserstein GANs: A Consistency Term and Its Dual Effect](https://arxiv.org/abs/1803.01541)
+12. [2017] [Energy-based generative adversarial network](https://arxiv.org/abs/1609.03126)
+13. [2016] [Improved Techniques for Training GANs](https://arxiv.org/abs/1606.03498)
+14. [2016] [Mode Regularized Generative Adversarial Networks](https://arxiv.org/abs/1612.02136)
+15. [2017] [Improving Generative Adversarial Networks with Denoising Feature Matching](https://openreview.net/forum?id=S1X7nhsxl)
+16. [2017] [Sampling Generative Networks](https://arxiv.org/abs/1609.04468)
+17. [2017] [Towards Principled Methods for Training Generative Adversarial Networks](https://arxiv.org/abs/1701.04862)
+18. [2016] [Unrolled Generative Adversarial Networks](https://arxiv.org/abs/1611.02163)
+19. [2016] [Least Squares Generative Adversarial Networks](https://arxiv.org/abs/1611.04076)
+20. [2017] [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
+21. [2017] [Improved Training of Wasserstein GANs](https://arxiv.org/abs/1704.00028)
+22. [2017] [Towards Principled Methods for Training Generative Adversarial Networks](https://arxiv.org/abs/1701.04862)
+23. [2017] [Generalization and Equilibrium in Generative Adversarial Nets](https://arxiv.org/abs/1703.00573)
+24. [2017] [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500)
+25.                                                                                                                            
+~                                                                               
 
