@@ -27,4 +27,33 @@
 24. [2017] [GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500)
 25. [2017] [Wasserstein Divergence for GANs](https://arxiv.org/abs/1712.01026)                                                                                                                           
 ~                                                                               
+##ICCV 2019
+Seeing What a GAN Cannot Generate
+Wasserstein GAN With Quadratic Transport Cost
+Attributing Fake Images to GANs: Learning and Analyzing GAN Fingerprints
+FW-GAN: Flow-Navigated Warping GAN for Video Virtual Try-On
+Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?
+SC-FEGAN: Face Editing Generative Adversarial Network With User’s Sketch and Color
+Mask-ShadowGAN: Learning to Remove Shadows From Unpaired Data
+Lifelong GAN: Continual Learning for Conditional Image Generation
+RankSRGAN: Generative Adversarial Networks With Ranker for Image Super-Resolution
+AutoGAN: Neural Architecture Search for Generative Adversarial Networks
+Controllable Artistic Text Style Transfer via Shape-Matching GAN
+InGAN: Capturing and Retargeting the “DNA” of a Natural Image
+COCO-GAN: Generation by Parts via Conditional Coordinating
+SinGAN: Learning a Generative Model From a Single Natural Image
+GAN-Based Projector for Faster Recovery With Convergence Guarantees in Linear Inverse Problems
+Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis
+RelGAN: Multi-Domain Image-to-Image Translation via Relative Attributes
+Spectral Regularization for Combating Mode Collapse in GANs
+Self-Ensembling With GAN-Based Data Augmentation for Domain Adaptation in Semantic Segmentation
+FSGAN: Subject Agnostic Face Swapping and Reenactment
+PU-GAN: A Point Cloud Upsampling Adversarial Network
+HoloGAN: Unsupervised Learning of 3D Representations From Natural Images
+GAN-Tree: An Incrementally Learned Hierarchical Generative Framework for Multi-Modal Data Distributions
+DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better
+Free-Form Video Inpainting With 3D Gated Convolution and Temporal PatchGAN
+S2GAN: Share Aging Factors Across Ages and Share Aging Trends Among Individuals
+PuppetGAN: Cross-Domain Image Manipulation by Demonstration	
+ARGAN: Attentive Recurrent Generative Adversarial Network for Shadow Detection and Removal
 
